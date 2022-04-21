@@ -6,7 +6,7 @@
 
 访问 [NG-ZOORO 组件总览](https://ng.ant.design/components/overview/zh)
 
-![image-20210825152613227](.\typora-user-images\image-20210825152613227.png)
+![image-20210825152613227](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210825152613227.png)
 
 `NG-ZOORO` 提供了布局、图标、数据展示和数据录入等功能集。帮助开发人员简化工作复杂度，更好的专注业务处理。开发人员应了解 `NG-ZOORO` 所提供的组件功能，在开发过程中，优先考虑使用已有的组件实现 `UI` 设计。
 
@@ -22,21 +22,21 @@
 
 例如引入 [`Button 按钮`](https://ng.ant.design/components/button/zh) 
 
-![image-20210826114446798](.\typora-user-images\image-20210826114446798.png)
+![image-20210826114446798](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826114446798.png)
 
 ② 添加至使用页面中
 
-![image-20210826114552926](.\typora-user-images\image-20210826114552926.png)
+![image-20210826114552926](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826114552926.png)
 
 组件效果
 
-![image-20210826114623989](.\typora-user-images\image-20210826114623989.png)
+![image-20210826114623989](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826114623989.png)
 
 ③ 自定义修改
 
 组件引入后我们可以按照需要的场景、功能进行修改，`NG-ZORRO` 中的每个组件都提供了诸多便利的`API` ，在实际开发中我们需要根据功能需求使用 `API` 来满足不同业务需要。
 
-![image-20210826114935583](.\typora-user-images\image-20210826114935583.png)
+![image-20210826114935583](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826114935583.png)
 
 `API` 的本质上是组件提供的 `@Input` 和 `@Output` 。
 
@@ -46,7 +46,7 @@
 <button nz-button nzType="primary" [nzLoading]="true">Primary Button</button>
 ```
 
-![image-20210826115410254](.\typora-user-images\image-20210826115410254.png)
+![image-20210826115410254](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826115410254.png)
 
 ##### 2. 使用组件的服务方法
 
@@ -54,7 +54,7 @@
 
 ① 引入 `service`
 
-![image-20210826115730464](.\typora-user-images\image-20210826115730464.png)
+![image-20210826115730464](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826115730464.png)
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
@@ -83,11 +83,11 @@ export class HeroComponent implements OnInit {
 
 每个服务都有导出的方法可供开发者使用，在 `API` 中可查看可使用的方法。
 
-![image-20210826120126546](.\typora-user-images\image-20210826120126546.png)
+![image-20210826120126546](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826120126546.png)
 
 使用时按照方法说明传入参数。
 
-![image-20210826120259478](.\typora-user-images\image-20210826120259478.png)
+![image-20210826120259478](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826120259478.png)
 
 ex : `  this.$nzMsg.success('内容');`
 
@@ -97,11 +97,11 @@ ex : `  this.$nzMsg.success('内容');`
 
 `UI` 规范见 ：企业微信 - 微盘 - UI组件
 
-![image-20210826135222243](.\typora-user-images\image-20210826135222243.png)
+![image-20210826135222243](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826135222243.png)
 
 目前可使用的本地样式库涉及字体、颜色、布局等，样式库见项目`src/style`。
 
-![image-20210826135552804](.\typora-user-images\image-20210826135552804.png)
+![image-20210826135552804](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826135552804.png)
 
 ##### 1. 如何使用
 
@@ -111,11 +111,11 @@ ex : `  this.$nzMsg.success('内容');`
 
   在 `src\style\base\_variable.scss` 中包含了项目字体、颜色变量等。
 
-  ![image-20210826140320198](.\typora-user-images\image-20210826140320198.png)
+  ![image-20210826140320198](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826140320198.png)
 
   在开发或修改组件时直接使用相关变量，这将为后续*换肤功能*提供帮助。
 
-  ![image-20210826140457821](.\typora-user-images\image-20210826140457821.png)
+  ![image-20210826140457821](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826140457821.png)
 
 - 类名使用
 
@@ -123,9 +123,9 @@ ex : `  this.$nzMsg.success('内容');`
 
   例如为**按钮**设置不同的 `padding` ，使用类名即可设置对应样式。
 
-  ![image-20210826141015629](.\typora-user-images\image-20210826141015629.png)
+  ![image-20210826141015629](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826141015629.png)
 
-  ![image-20210826141037872](.\typora-user-images\image-20210826141037872.png)
+  ![image-20210826141037872](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210826141037872.png)
 
   **更多样式内容和本地样式库说明 **
 

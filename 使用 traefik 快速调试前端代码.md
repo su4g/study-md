@@ -12,7 +12,7 @@
 
 ##### 如何配置
 
-![image-20210719153900258](.\typora-user-images\image-20210719153900258.png)
+![image-20210719153900258](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719153900258.png)
 
 treafik  配置文件为 `config/dynamic_conf.toml`
 
@@ -57,17 +57,17 @@ treafik  配置文件为 `config/dynamic_conf.toml`
 
 在 traefik 解压路径下打开 windows 终端
 
-![image-20210719155635829](.\typora-user-images\image-20210719155635829.png)
+![image-20210719155635829](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719155635829.png)
 
 执行命令 `.\traefik.exe --configfile .\traefik.toml`
 
-![image-20210719160939117](.\typora-user-images\image-20210719160939117.png)
+![image-20210719160939117](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719160939117.png)
 
 查看规则
 
 浏览器中输入 `http://127.0.0.1:8080/dashboard/#/http/routers`
 
-![image-20210719161029083](.\typora-user-images\image-20210719161029083.png)
+![image-20210719161029083](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719161029083.png)
 
 
 
@@ -77,11 +77,11 @@ treafik  配置文件为 `config/dynamic_conf.toml`
 
 取消 app.service.ts 中配置的服务地址
 
-![image-20210719161611768](.\typora-user-images\image-20210719161611768.png)
+![image-20210719161611768](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719161611768.png)
 
 访问地址使用 `http://127.0.0.1/user/login` 或 `http://127.0.0.1/customer/login`
 
-![image-20210719161758114](.\typora-user-images\image-20210719161758114.png)
+![image-20210719161758114](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719161758114.png)
 
 
 
@@ -104,7 +104,7 @@ treafik  配置文件为 `config/dynamic_conf.toml`
 
    使用 ` netstat -ano` 或 ` netstat -aon|findstr "80"`查看端口使用
 
-![image-20210719151131236](.\typora-user-images\image-20210719151131236.png)
+![image-20210719151131236](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719151131236.png)
 
 ​     ② 查看 PID 并终止该进程 
 
@@ -114,22 +114,22 @@ treafik  配置文件为 `config/dynamic_conf.toml`
 
   右键勾选 PID 、查找对应 PID 并终止程序
 
-![image-20210719153305965](.\typora-user-images\image-20210719153305965.png)
+![image-20210719153305965](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719153305965.png)
 
 ​	**无法终止**
 
- ![image-20210719160443725](.\typora-user-images\image-20210719160443725.png)
+ ![image-20210719160443725](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719160443725.png)
 
 
 
 1. 以管理员身份运行
 
-   ![image-20210719160639101](.\typora-user-images\image-20210719160639101.png)
+   ![image-20210719160639101](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719160639101.png)
 
 2. 终止PID
 
-   ![image-20210719160708733](.\typora-user-images\image-20210719160708733.png)
+   ![image-20210719160708733](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719160708733.png)
 
 3. 重新启动
 
-   ![image-20210719160740835](.\typora-user-images\image-20210719160740835.png)
+   ![image-20210719160740835](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210719160740835.png)

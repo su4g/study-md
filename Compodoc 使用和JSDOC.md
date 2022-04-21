@@ -4,7 +4,7 @@
 
   Compodoc 是 Angular 应用程序的文档工具，它会生成应用程序的静态文档网站（ 可包含模块、组件、路由等内容 ），使团队的开发人员可以轻松了解应用程序的功能。
 
-  ![image-20210809141445744](.\typora-user-images\image-20210809141445744.png)
+  ![image-20210809141445744](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210809141445744.png)
 
 
 
@@ -79,19 +79,19 @@
 
      ① 修改 `dynamic-form.service.ts` 和 `form.service.ts` , 删除方法注释中的 `@author` 和 `@memebers` （ 使用该注释字段会导致 compodoc 转换错误 ）。
 
-     ![image-20210809152638219](.\typora-user-images\image-20210809152638219.png)
+     ![image-20210809152638219](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210809152638219.png)
 
      ② 执行 `npm run compodoc` 
 
      完成后将生成 `documentation` 文件夹
 
-     ![image-20210809153146629](.\typora-user-images\image-20210809153146629.png)
+     ![image-20210809153146629](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210809153146629.png)
 
   4. 启动服务
 
      执行 `compodoc -s` 或 `npx compodoc -s` ，将使用默认端口 ( 8080 ) 启动文档服务。
 
-     ![image-20210809155008826](.\typora-user-images\image-20210809155008826.png)
+     ![image-20210809155008826](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210809155008826.png)
 
 
 
@@ -152,7 +152,7 @@
 
   文档展示：
 
-  ![image-20210809162525964](.\typora-user-images\image-20210809162525964.png)
+  ![image-20210809162525964](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210809162525964.png)
 
   
 
@@ -162,11 +162,11 @@
 
   > Markdown 文档 (中文)  https://markdown.com.cn/basic-syntax/
 
-  ![image-20210809163220389](.\typora-user-images\image-20210809163220389.png)
+  ![image-20210809163220389](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210809163220389.png)
 
   添加`MD`文件后，在组件的文档选项卡中会多出 `README` 。
 
-  ![image-20210809163351959](.\typora-user-images\image-20210809163351959.png)
+  ![image-20210809163351959](https://github.com/su4g/study-md/blob/main/typora-user-images/image-20210809163351959.png)
 
   
 
